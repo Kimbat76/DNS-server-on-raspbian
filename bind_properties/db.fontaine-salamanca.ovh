@@ -1,4 +1,4 @@
-fontaine-salamanca.ovh. IN SOA dns.fontaine-salamanca.ovh. (
+fontaine-salamanca.ovh. IN SOA dns.fontaine-salamanca.ovh. mail.fontaine-salamanca.ovh. (
 	2018032301 ; serial
 	8H ; refresh
 	4H ; retry
@@ -6,7 +6,7 @@ fontaine-salamanca.ovh. IN SOA dns.fontaine-salamanca.ovh. (
 	1D ; minimum
 )
 fontaine-salamanca.ovh. IN NS dns.fontaine-salamanca.ovh.
-fontaine-salamanca.ovh. IN MX 10 dns.fontaine-salamanca.ovh.
+fontaine-salamanca.ovh. IN MX 10 mail.fontaine-salamanca.ovh.
 localhost	IN A 127.0.0.1
 dns		IN A 192.168.7.100
 domoticz	IN A 192.168.7.8

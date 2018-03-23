@@ -1,4 +1,4 @@
-@ IN SOA dns.fontaine-salamanca.ovh. (
+@ IN SOA dns.fontaine-salamanca.ovh. mail.fontaine-salamanca.ovh. (
 	2018032301 ; serial
 	8H ; refresh
 	4H ; retry
