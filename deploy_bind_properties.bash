@@ -4,7 +4,7 @@ target_dir="/etc/bind"
 source_dir="bind_properties"
 
 # list the properties files to deploy
-for list_file in $(ls -1 ${source_dir})
+for list_file in $(find ${source_dir} -type f)
 do
 	cp -p ${list_file} ${target_dir}/
 done
