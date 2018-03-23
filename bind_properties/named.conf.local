@@ -6,7 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "fontaine-salamanca.ovh" {
+zone "fontaine-salamanca.ovh" IN {
 	type master;
 	file "/etc/bind/db.fontaine-salamanca.ovh";
 };
