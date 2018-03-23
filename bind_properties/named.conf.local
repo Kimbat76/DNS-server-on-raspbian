@@ -6,3 +6,11 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "fontaine-salamanca.ovh" IN {
+	type master;
+	file "/etc/bind/db.fontaine-salamanca.ovh";
+};
+zone "7.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.rev.7.168.192.in-addr.arpa";
+};

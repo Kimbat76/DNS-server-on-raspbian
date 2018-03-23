@@ -1,0 +1,10 @@
+@ IN SOA dns.fontaine-salamanca.ovh. (
+	2018032301 ; serial
+	8H ; refresh
+	4H ; retry
+	4W ; expire
+	1D ; minimum
+)
+	IN NS dns.fontaine-salamanca.ovh.
+100	IN PTR dns.fontaine-salamanca.ovh.
+8	IN PTR domoticz.fontaine-salamanca.ovh.
