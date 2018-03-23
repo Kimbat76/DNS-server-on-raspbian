@@ -7,6 +7,7 @@ source_dir="bind_properties"
 for list_file in $(find ${source_dir} -type f)
 do
 	sudo cp -p ${list_file} ${target_dir}/
+	sudo chown root:bind ${target_dir}/$(basename ${list_file})
 done
 
 #restart bind9 deamon for activating the effects.
